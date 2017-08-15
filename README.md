@@ -3,6 +3,8 @@
 
 # Инструкция по установке:
 * Установите расширение Stylish для браузера [Firefox](https://addons.mozilla.org/ru/firefox/addon/stylish/) или [Chrome](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=ru);  
-* Скопируйте код из файла style.css для ВКонтакте;
+* Скопируйте код из файла [style.css](https://github.com/anton0kurilov/vkflat/blob/master/style.css) для ВКонтакте;
 * Кликните по иконке Stylish справа от адресной строки браузера и добавьте новый стиль;
 * Вставьте скопированный код в поле, далее следуйте инструкциям.
+
+***В файле vkflat2.css хранится устаревшие стили для ВКонтакте до редизайна в 2016 году.***
