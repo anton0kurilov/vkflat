@@ -1,108 +1,212 @@
-/* VKFLAT. Сoбрано и сделано vk.com/vkflatdesign  */
+/* 
+	VKFLAT 4.0
+	====================================================
+	Публичная страница ВК: vk.com/vkflatdesign
+	Репозиторий GitHub: github.com/anton0kurilov/vkflat
+	Страница на UserStyles: userstyles.org/styles/105851
+*/
 
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("vk.com") {
-    body {
-        text-decoration: none!important;
-        background: white!important;
-    }
-    * {
-        text-decoration: none!important;
-    }
-    /*--paddingmargin--*/
-    .post_like,
-    .post_share {
-        padding: 8px 10px!important;
-    }
-    .top_audio_layer {
-        padding: 0px!important;
-    }
-    .wk_text blockquote {
-        padding: 15px!important;
-    }
-    .left_label {
-        padding-left: 8px!important;
-    }
-    .wall_signed {
-        padding-top: 8px!important;
-    }
-    /*--widthheight--*/
-    .side_bar_inner {
-        width: 119px!important;
-    }
-    #page_body {
-        width: 825px!important;
-    }
-    .top_home_link {
-        width: 135px!important;
-    }
-    /*--border--*/
-    .post_full_like_wrap {
-        border-top: none!important;
-    }
-    .page_post_sized_thumbs a.page_post_thumb_last_row,
-    .page_block,
-    .emoji,
-    .emoji_css,
-    .im-page,
-    .wr_header,
-    .video_module .video .page_video_thumb {
-        border-radius: 3px!important;
-    }
-    .friends_find_user_img {
-        border-radius: 160px!important;
-    }
-    /*--background--*/
-    .page_block {
-        background: #fbfbfb!important;
-    }
-    .submit_post_box {
-        background: white!important;
-    }
-    .no_current_info:hover,
-    .my_current_info:hover {
-        background: transparent!important;
-    }
-    .im-page .im-page--chat-body {
-        background: white!important;
-    }
-    .profile_more_info_link {
-        background: #f0f2f5!important;
-    }
-    /*--another--*/
-    #ads_left,
-    .top_profile_name,
-    .left_settings_inner,
-    .audio_layer_bottom,
-    .photos_module,
-    .left_icon {
-        display: none!important;
-    }
-    .wall_module .wall_text,
-    .tu_row_title {
-        font-size: 14px!important;
-    }
-    .wall_module .post {
-        line-height: 12px!important;
-    }
-    .feed_new_posts {
-        background: #f0f2f5!important;
-        border: 0!important;
-    }
-    .pv_cont .pv_close_btn {
-        top: 14px!important;
-        right: 14px!important;
-    }
-}
+	body {
+		background-color: #f5f5f5!important;
+		text-decoration: none!important;
+	}
 
-@-moz-document url-prefix("https://vk.com/im") {
-    #page_body {
-        width: 941px!important;
-    }
-}
+	a:hover {
+		text-decoration: none!important;
+	}
 
-@-moz-document url-prefix("http://vk.com/im") {
-    #page_body {
-        width: 941px!important;
-    }
+	/*-- HEADER TAGS --*/
+	#page_header_cont .back,
+	#page_header,
+	.top_nav_btn,
+	.top_nav_link {
+		height: 50px!important;
+	}
+
+	.top_nav_link {
+		line-height: 50px!important;
+	}
+
+	#top_notify_btn.active #top_notify_wrap {
+		top: 50px!important;
+	}
+
+	.top_profile_name {
+		display: none!important;
+	}
+
+	.top_profile_img,
+	input.text.ts_input {
+		margin: 11px 0!important;
+	}
+
+	.top_profile_arrow {
+		margin-top: 24px!important;
+	}
+
+	.top_home_link .top_home_logo,
+	.top_nav_btn .top_nav_btn_icon {
+		margin-top: 15px!important;
+	}
+
+	#top_profile_menu.shown {
+		top: 56px!important;
+	}
+
+	#top_profile_menu {
+		padding: 0!important;
+	}
+
+	.top_profile_mrow {
+		height: 32px!important;
+		line-height: 32px!important;
+	}
+
+	.top_profile_sep,
+	.ui_rmenu_sep,
+	#side_bar .more_div {
+		margin: 0!important;
+	}
+
+	/*-- ASIDE TAGS -*/
+	.side_bar_inner {
+		margin-top: 50px!important;
+	}
+
+	#ads_left {
+		display: none!important;
+	}
+
+	#stl_bg {
+		padding-top: 68px!important;
+	}
+
+	/*-- BODY TAGS --*/
+	#page_body {
+		margin-top: 50px!important;
+	}
+
+	.page_module_upload {
+		display: none!important;
+	}
+
+	.page_block {
+		border-radius: 1px;
+		box-shadow: 0 1px 0px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.2)!important;
+		margin: 10px 0 0;
+	}
+
+	.is_online .profile_online_lv {
+		cursor: default!important;
+	}
+
+	.no_current_info:hover {
+		background-color: transparent!important;
+	}
+
+	.counts_module {
+		border: 0!important;
+		background-color: #fafbfc!important;
+		border-top: 1px solid #e7e8ec!important;
+	}
+
+	.page_counter .count {
+		font-size: 22px!important;
+	}
+
+	.profile_more_info_link {
+		padding: 0!important;
+		margin: 10px -20px -15px -20px!important;
+		text-align: center!important;
+		border-radius: 0!important;
+		height: 40px!important;
+		line-height: 40px!important;
+	}
+
+	.wr_header {
+		margin: 0 0 15px 0!important;
+	}
+
+	.replies_open,
+	.wr_header {
+		font-size: 13px!important;
+		line-height: 40px!important;
+		border-radius: 0!important;
+	}
+
+	.wall_module .replies_list {
+		border-top: 0!important;
+	}
+
+	.profile_info_full {
+		padding-top: 28px;
+	}
+
+	.button_blue button,
+	.button_gray button,
+	.button_light_gray button,
+	.flat_button {
+		border-radius: 2px;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, .2)!important;
+		font-size: 13px!important;
+	}
+
+	.button_wide button,
+	.flat_button.button_wide,
+	.flat_button {
+		font-weight: 500!important;
+		text-transform: uppercase!important;
+	}
+
+	.module_header,
+	.right_list_header {
+		background-color: #fafbfc!important;
+		border-bottom: 1px solid #e7e8ec;
+		margin: 0!important;
+		height: 40px!important;
+	}
+
+	.friends_find_user_img {
+		border-radius: 50%!important;
+	}
+
+	.feed_submit_shown .feed_post_field_wrap,
+	.submit_post_box {
+		padding: 5px 0!important;
+	}
+
+	#submit_post_box:not(.shown):not(.own_field) .page_add_media {
+		bottom: 18px!important;
+	}
+
+	.profile_msg_split .profile_btn_cut_left {
+		border-right: 0!important;
+	}
+
+	.ui_tabs {
+		background-color: #fafbfc!important;
+	}
+
+	.ui_rmenu_item,
+	.ui_rmenu_subitem {
+		height: 35px!important;
+		line-height: 34px!important;
+	}
+
+	.ui_actions_menu,
+	.ui_rmenu,
+	.im-settings {
+		padding: 0!important;
+	}
+
+	.ui_actions_menu_item {
+		height: 32px!important;
+		line-height: 32px!important;
+	}
+
+	.ui_actions_menu_sep {
+		margin: 0!important;
+	}
 }
