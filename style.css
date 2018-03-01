@@ -130,7 +130,8 @@
 	}
 	.button_wide button,
 	.flat_button.button_wide,
-	.flat_button {
+	.flat_button, 
+	.page_actions_header_inner {
 		font-weight: 500!important;
 		text-transform: uppercase!important;
 	}
